@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 5px;
+}
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flexbox-container {
+    /* justify-content: center; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile {
+    width: 100%;
+}
+
+.storybook-card {
+    box-shadow: 0 4px 8px 0 black;
+    margin: 10px;
+}
+
+.storybook-card--small {
+    max-width: 200px;
+    width: 100%;
+}
+
+.storybook-card--medium {
+    max-width: 300px;
+    width: 100%;
+}
+
+.storybook-card--large {
+    max-width: 400px;
+    width: 100%;
+}
+
+
